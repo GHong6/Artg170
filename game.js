@@ -1,3 +1,5 @@
+let globalScore = 0;
+
 class Room1 extends AdventureScene {
     constructor() {
         super("Room1", "First Room");
@@ -16,6 +18,9 @@ class Room1 extends AdventureScene {
     }
 
     create() {
+        
+
+        
         this.music = this.sound.add('click');
         this.music.setLoop(false);
         
@@ -106,12 +111,16 @@ class Room1 extends AdventureScene {
             this.s4.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+
+                this.buttonPressed = true;
                 this.s4.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room2');
                 });
-        
+            }
             })
             this.s4.alpha = 0;
             this.tweens.add({
@@ -176,6 +185,8 @@ class Room1 extends AdventureScene {
 
         
     }
+
+    
 }
 
 class Room2 extends AdventureScene {
@@ -258,12 +269,15 @@ class Room2 extends AdventureScene {
             this.q3.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.q3.setTint(0x2bff64); // Red tint
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room3');
                 });
-        
+            }
             })
             this.q3.alpha = 0;
             this.tweens.add({
@@ -412,12 +426,15 @@ class Room3 extends AdventureScene {
             this.w2.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.w2.setTint(0x2bff64); // Red tint
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room4');
                 });
-        
+            }
             })
             this.w2.alpha = 0;
             this.tweens.add({
@@ -664,12 +681,15 @@ class Room4 extends AdventureScene {
             this.e5.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.e5.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room5');
                 });
-        
+            }
             })
             this.e5.alpha = 0;
             this.tweens.add({
@@ -740,12 +760,15 @@ class Room5 extends AdventureScene {
             this.a1.setScale(.5)
             .setInteractive() 
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                    globalScore += 1;
+                    this.buttonPressed = true;
                     this.a1.setTint(0x2bff64); // Red tint
                     this.music.play();
                     this.time.delayedCall(2000, () => {
                     this.gotoScene('Room6');
                     });
-        
+                }
             })
             this.a1.alpha = 0;
             this.tweens.add({
@@ -914,12 +937,15 @@ class Room6 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.trust.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room7');
                 });
-        
+            }
             })
             this.trust.alpha = 0;
             this.tweens.add({
@@ -1026,12 +1052,15 @@ class Room7 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.threat.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room8');
                 });
-        
+            }
             })
             this.threat.alpha = 0;
             this.tweens.add({
@@ -1090,12 +1119,15 @@ class Room8 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.trust.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room9');
                 });
-        
+            }
             })
             this.trust.alpha = 0;
             this.tweens.add({
@@ -1202,12 +1234,15 @@ class Room9 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.threat.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room10');
                 });
-        
+            }
             })
             this.threat.alpha = 0;
             this.tweens.add({
@@ -1266,12 +1301,15 @@ class Room10 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.trust.setTint(0x2bff64); 
                 this.music.play();
                 this.time.delayedCall(2000, () => {
                 this.gotoScene('Room11');
                 });
-        
+            }
             })
             this.trust.alpha = 0;
             this.tweens.add({
@@ -1390,6 +1428,9 @@ class Room11 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                this.buttonPressed = true;
                 this.threat.setTint(0x2bff64); 
                 this.time.delayedCall(500, () => {
                     this.rr6 = this.add.image(
@@ -1404,7 +1445,7 @@ class Room11 extends AdventureScene {
                 this.time.delayedCall(5000, () => {
                 this.gotoScene('Room12');
                 });
-        
+            }
             })
             this.threat.alpha = 0;
             this.tweens.add({
@@ -1640,6 +1681,10 @@ class Room12 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+                
+                this.buttonPressed = true;
                 this.time.delayedCall(2000, () => {
                     this.per2 = this.add.image(
                         440,
@@ -1791,6 +1836,7 @@ class Room12 extends AdventureScene {
                 this.time.delayedCall(5500, () => {
                 this.gotoScene('Room13');
                 });
+            }
         
             })
             this.threat.alpha = 0;
@@ -1839,22 +1885,12 @@ class Intro extends Phaser.Scene {
 
     create() {
 
-        this.input.on('pointerdown', () => this.scene.start('Room1'));
+        //this.input.on('pointerdown', () => this.scene.start('Room1'));
         const video = this.add.video(400, 300, "intro");
         video.play();
 
         video.on('complete', () => {
-            this.textObject8 = this.add.text(
-                440, //x
-                270,//y
-                "Click", //text
-                {
-                    font: "30px",
-                    color: "#FFFFFF",
-                    align: "center"
-                } //style
-            );
-            this.input.on('pointerdown', () => this.scene.start('Room1'));
+            this.scene.start('Room1')
         });
     }
 }
@@ -1866,27 +1902,55 @@ class Room13 extends AdventureScene {
 
     preload(){
         this.load.path = "./assets/";
-        this.load.video("intro", "intro.mp4");
+        this.load.video("end", "Ending.mp4");
+        this.load.image('a5', 'a5.png');
+    }
 
+    updateScoreText() {
+        if (this.scoreText) {
+            this.scoreText.destroy(); // Remove the old score text
+        }
+        
     }
 
     create() {
 
-        this.input.on('pointerdown', () => this.scene.start('Intro'));
-        const video = this.add.video(400, 300, "intro");
+
+        let result = globalScore / 12;
+        let roundedResult = result.toFixed(2);
+
+        let lastScore = roundedResult * 100;
+        let lastScore1 = (roundedResult * 100).toFixed(0);
+
+        this.input.on('pointerdown', () => this.scene.start('Room1'));
+        const video = this.add.video(400, 300, "end");
         video.play();
 
+   
+        
         video.on('complete', () => {
-            this.textObject8 = this.add.text(
-                440, //x
-                270,//y
-                "Click", //text
-                {
-                    font: "30px",
-                    color: "#FFFFFF",
-                    align: "center"
-                } //style
-            );
+
+
+            this.scoreText = this.add.text(300, 270, 'Score: ' + lastScore1 + "%", {
+                fontSize: '50px',
+                fill: '#fff'
+            });
+
+            if(lastScore >89){
+                this.scoreText = this.add.text(300, 370, "You're prepared", {
+                    fontSize: '24px',
+                    fill: '#fff'
+                });
+
+
+                
+            }else{
+                this.scoreText = this.add.text(300, 370, "Remember to lock your door", {
+                    fontSize: '24px',
+                    fill: '#fff'
+                });
+            }
+
             this.input.on('pointerdown', () => this.scene.start('Intro'));
         });
     }
