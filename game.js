@@ -12,7 +12,7 @@ class Room1 extends AdventureScene {
         this.load.image('s3', 'S3.png');
         this.load.image('s4', 'S4.png');
         this.load.image('s5', 'S5.png');
-        this.load.audio('hum','Hum.mp3');
+        this.load.audio('hum','Hum2.mp3');
         this.load.audio('click','click.mp3');
         
     }
@@ -20,11 +20,11 @@ class Room1 extends AdventureScene {
     create() {
         
 
-        
+        this.music1 = this.sound.add('hum');
         this.music = this.sound.add('click');
         this.music.setLoop(false);
-        
-        //this.music.play();
+        this.music1.setLoop(true);
+        this.music1.play();
 
         this.time.delayedCall(500, () => {
             this.s1 = this.add.image(
@@ -1922,7 +1922,6 @@ class Room13 extends AdventureScene {
         let lastScore = roundedResult * 100;
         let lastScore1 = (roundedResult * 100).toFixed(0);
 
-        this.input.on('pointerdown', () => this.scene.start('Room1'));
         const video = this.add.video(400, 300, "end");
         video.play();
 
