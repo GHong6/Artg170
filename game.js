@@ -35,9 +35,9 @@ class Room1 extends AdventureScene {
             this.s1.setScale(.5)
             .setInteractive() 
             .on('pointerdown', () => {
-                    this.s1.setTint(0xff0000); // Red tint
+                    this.s1.setTint(0x404040); // Red tint
                     this.music.play();
-                    this.time.delayedCall(2000, () => {
+                    this.time.delayedCall(1000, () => {
                     this.gotoScene('Room2');
                     });
         
@@ -61,9 +61,9 @@ class Room1 extends AdventureScene {
             this.s2.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.s2.setTint(0xff0000); // Red tint
+                this.s2.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room2');
                 });
         
@@ -86,9 +86,9 @@ class Room1 extends AdventureScene {
             this.s3.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.s3.setTint(0xff0000); // Red tint
+                this.s3.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room2');
                 });
         
@@ -115,9 +115,9 @@ class Room1 extends AdventureScene {
                 globalScore += 1;
 
                 this.buttonPressed = true;
-                this.s4.setTint(0x2bff64); 
+                this.s4.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room2');
                 });
             }
@@ -140,9 +140,9 @@ class Room1 extends AdventureScene {
             this.s5.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.s5.setTint(0xff0000); 
+                this.s5.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room2');
                 });
         
@@ -218,9 +218,9 @@ class Room2 extends AdventureScene {
             this.q1.setScale(.5)
             .setInteractive() 
             .on('pointerdown', () => {
-                    this.q1.setTint(0xff0000); // Red tint
+                    this.q1.setTint(0x404040); // Red tint
                     this.music.play();
-                    this.time.delayedCall(2000, () => {
+                    this.time.delayedCall(1000, () => {
                     this.gotoScene('Room3');
                     });
         
@@ -244,9 +244,9 @@ class Room2 extends AdventureScene {
             this.q2.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.q2.setTint(0xff0000); // Red tint
+                this.q2.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room3');
                 });
         
@@ -272,9 +272,9 @@ class Room2 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.q3.setTint(0x2bff64); // Red tint
+                this.q3.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room3');
                 });
             }
@@ -297,9 +297,9 @@ class Room2 extends AdventureScene {
             this.q4.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.q4.setTint(0xff0000); 
+                this.q4.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room3');
                 });
         
@@ -322,9 +322,9 @@ class Room2 extends AdventureScene {
             this.q5.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.q5.setTint(0xff0000); 
+                this.q5.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room3');
                 });
         
@@ -400,9 +400,9 @@ class Room3 extends AdventureScene {
             this.w1.setScale(.5)
             .setInteractive() 
             .on('pointerdown', () => {
-                    this.w1.setTint(0xff0000); // Red tint
+                    this.w1.setTint(0x404040); // Red tint
                     this.music.play();
-                    this.time.delayedCall(2000, () => {
+                    this.time.delayedCall(1000, () => {
                     this.gotoScene('Room4');
                     });
         
@@ -429,9 +429,9 @@ class Room3 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.w2.setTint(0x2bff64); // Red tint
+                this.w2.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room4');
                 });
             }
@@ -454,9 +454,9 @@ class Room3 extends AdventureScene {
             this.w3.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.w3.setTint(0xff0000); // Red tint
+                this.w3.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room4');
                 });
         
@@ -479,9 +479,9 @@ class Room3 extends AdventureScene {
             this.w4.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.w4.setTint(0xff0000); 
+                this.w4.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room4');
                 });
         
@@ -504,9 +504,9 @@ class Room3 extends AdventureScene {
             this.w5.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.w5.setTint(0xff0000); 
+                this.w5.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room4');
                 });
         
@@ -580,9 +580,9 @@ class Room4 extends AdventureScene {
             this.e1.setScale(.5)
             .setInteractive() 
             .on('pointerdown', () => {
-                    this.e1.setTint(0xff0000); // Red tint
+                    this.e1.setTint(0x404040); // Red tint
                     this.music.play();
-                    this.time.delayedCall(2000, () => {
+                    this.time.delayedCall(1000, () => {
                     this.gotoScene('Room5');
                     });
         
@@ -606,9 +606,9 @@ class Room4 extends AdventureScene {
             this.e2.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.e2.setTint(0xff0000); // Red tint
+                this.e2.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room5');
                 });
         
@@ -631,9 +631,9 @@ class Room4 extends AdventureScene {
             this.e3.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.e3.setTint(0xff0000); // Red tint
+                this.e3.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room5');
                 });
         
@@ -656,9 +656,9 @@ class Room4 extends AdventureScene {
             this.e4.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.e4.setTint(0xff0000); 
+                this.e4.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room5');
                 });
         
@@ -684,9 +684,9 @@ class Room4 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.e5.setTint(0x2bff64); 
+                this.e5.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room5');
                 });
             }
@@ -763,10 +763,10 @@ class Room5 extends AdventureScene {
                 if (!this.buttonPressed) {
                     globalScore += 1;
                     this.buttonPressed = true;
-                    this.a1.setTint(0x2bff64); // Red tint
+                    this.a1.setTint(0x404040); // Red tint
                     this.music.play();
-                    this.time.delayedCall(2000, () => {
-                    this.gotoScene('Room6');
+                    this.time.delayedCall(1000, () => {
+                    this.gotoScene('Test1');
                     });
                 }
             })
@@ -789,10 +789,10 @@ class Room5 extends AdventureScene {
             this.a2.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.a2.setTint(0xff0000); // Red tint
+                this.a2.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
-                this.gotoScene('Room6');
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test1');
                 });
         
             })
@@ -814,10 +814,10 @@ class Room5 extends AdventureScene {
             this.a3.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.a3.setTint(0xff0000); // Red tint
+                this.a3.setTint(0x404040); // Red tint
                 this.music.play();
-                this.time.delayedCall(2000, () => {
-                this.gotoScene('Room6');
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test1');
                 });
         
             })
@@ -839,10 +839,10 @@ class Room5 extends AdventureScene {
             this.a4.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.a4.setTint(0xff0000); 
+                this.a4.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
-                this.gotoScene('Room6');
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test1');
                 });
         
             })
@@ -864,10 +864,10 @@ class Room5 extends AdventureScene {
             this.a5.setScale(.5)
             .setInteractive()
             .on('pointerdown', () => {
-                this.a5.setTint(0xff0000); 
+                this.a5.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
-                this.gotoScene('Room6');
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test1');
                 });
         
             })
@@ -911,6 +911,718 @@ class Room5 extends AdventureScene {
     
 }
 
+class Test1 extends AdventureScene {
+    constructor() {
+        super("Test1", "Test1");
+    }
+
+    preload(){
+        this.load.path = "./assets/";
+        this.load.image('qq1', 'qq1.png');
+        this.load.image('qq2', 'qq2.png');
+        this.load.image('qq3', 'qq3.png');
+        this.load.image('qq4', 'qq4.png');
+        this.load.image('qq5', 'qq5.png');
+        this.load.audio('hum','Hum2.mp3');
+        this.load.audio('click','click.mp3');
+        
+    }
+
+    create() {
+        
+
+        this.music1 = this.sound.add('hum');
+        this.music = this.sound.add('click');
+        this.music.setLoop(false);
+        this.music1.setLoop(true);
+        this.music1.play();
+
+        this.time.delayedCall(500, () => {
+            this.qq1 = this.add.image(
+                100,
+                270,
+                'qq1',
+            )
+            this.qq1.setScale(.5)
+            .setInteractive() 
+            .on('pointerdown', () => {
+                    globalScore += 1;
+                    this.qq1.setTint(0x404040); // Red tint
+                    this.music.play();
+                    this.time.delayedCall(1000, () => {
+                    this.gotoScene('Test2');
+                    });
+        
+            })
+            this.qq1.alpha = 0;
+            this.tweens.add({
+                        targets: this.qq1,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        
+        this.time.delayedCall(600, () => {
+            this.qq2 = this.add.image(
+                270,
+                270,
+                'qq2',
+            )
+            this.qq2.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qq2.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test2');
+                });
+        
+            })
+            this.qq2.alpha = 0;
+            this.tweens.add({
+                        targets: this.qq2,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(700, () => {
+            this.qq3 = this.add.image(
+                440,
+                270,
+                'qq3',
+            )
+            this.qq3.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qq3.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test2');
+                });
+        
+            })
+            this.qq3.alpha = 0;
+            this.tweens.add({
+                        targets: this.qq3,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(800, () => {
+            this.qq4 = this.add.image(
+                610,
+                270, 
+                'qq4',
+            )
+            this.qq4.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+        
+
+                this.buttonPressed = true;
+                this.qq4.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test2');
+                });
+            }
+            })
+            this.qq4.alpha = 0;
+            this.tweens.add({
+                        targets: this.qq4,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(900, () => {
+            this.qq5 = this.add.image(
+                780,
+                270, 
+                'qq5',
+            )
+            this.qq5.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qq5.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test2');
+                });
+        
+            })
+            this.qq5.alpha = 0;
+            this.tweens.add({
+                        targets: this.qq5,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+
+
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,100, "Question 6").setFontSize(50);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,150, "Choose the anomaly").setFontSize(35);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+
+        
+    }
+
+    
+}
+
+class Test2 extends AdventureScene {
+    constructor() {
+        super("Test2", "Test2");
+    }
+
+    preload(){
+        this.load.path = "./assets/";
+        this.load.image('qqq1', 'qqq1.png');
+        this.load.image('qqq2', 'qqq2.png');
+        this.load.image('qqq3', 'qqq3.png');
+        this.load.image('qqq4', 'qqq4.png');
+        this.load.image('qqq5', 'qqq5.png');
+        this.load.audio('hum','Hum2.mp3');
+        this.load.audio('click','click.mp3');
+        
+    }
+
+    create() {
+        
+
+        this.music1 = this.sound.add('hum');
+        this.music = this.sound.add('click');
+        this.music.setLoop(false);
+        this.music1.setLoop(true);
+        this.music1.play();
+
+        this.time.delayedCall(500, () => {
+            this.qqq4 = this.add.image(
+                100,
+                270,
+                'qqq4',
+            )
+            this.qqq4.setScale(.5)
+            .setInteractive() 
+            .on('pointerdown', () => {
+                    globalScore += 1;
+                    this.qqq4.setTint(0x404040); // Red tint
+                    this.music.play();
+                    this.time.delayedCall(1000, () => {
+                    this.gotoScene('Test3');
+                    });
+        
+            })
+            this.qqq4.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqq4,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        
+        this.time.delayedCall(600, () => {
+            this.qqq2 = this.add.image(
+                270,
+                270,
+                'qqq2',
+            )
+            this.qqq2.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqq2.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test3');
+                });
+        
+            })
+            this.qqq2.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqq2,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(700, () => {
+            this.qqq3 = this.add.image(
+                440,
+                270,
+                'qqq3',
+            )
+            this.qqq3.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqq3.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test3');
+                });
+        
+            })
+            this.qqq3.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqq3,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(800, () => {
+            this.qqq1 = this.add.image(
+                610,
+                270, 
+                'qqq1',
+            )
+            this.qqq1.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+                globalScore += 1;
+
+                this.buttonPressed = true;
+                this.qqq1.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test3');
+                });
+            }
+            })
+            this.qqq1.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqq1,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(900, () => {
+            this.qqq5 = this.add.image(
+                780,
+                270, 
+                'qqq5',
+            )
+            this.qqq5.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqq5.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Test3');
+                });
+        
+            })
+            this.qqq5.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqq5,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+
+
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,100, "Question 7").setFontSize(50);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,150, "Choose the anomaly").setFontSize(35);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+
+        
+    }
+
+    
+}
+
+
+
+
+class Test3 extends AdventureScene {
+    constructor() {
+        super("Test3", "Test3");
+    }
+
+    preload(){
+        this.load.path = "./assets/";
+        this.load.image('qqqq1', 'qqqq1.png');
+        this.load.image('qqqq2', 'qqqq2.png');
+        this.load.image('qqqq3', 'qqqq3.png');
+        this.load.image('qqqq4', 'qqqq4.png');
+        this.load.image('qqqq5', 'qqqq5.png');
+        this.load.image('qqqq6', 'qqqq6.png');
+        this.load.image('qqqq7', 'qqqq7.png');
+        this.load.image('qqqq8', 'qqqq8.png');
+        this.load.image('qqqq9', 'qqqq9.png');
+        this.load.image('qqqq10', 'qqqq10.png');
+        this.load.audio('hum','Hum2.mp3');
+        this.load.audio('click','click.mp3');
+        
+    }
+
+    create() {
+        
+
+        this.music1 = this.sound.add('hum');
+        this.music = this.sound.add('click');
+        this.music.setLoop(false);
+        this.music1.setLoop(true);
+        this.music1.play();
+
+        this.time.delayedCall(500, () => {
+            this.qqqq1 = this.add.image(
+                100,
+                270,
+                'qqqq1',
+            )
+            this.qqqq1.setScale(.5)
+            .setInteractive() 
+            .on('pointerdown', () => {
+                    
+                    this.qqqq1.setTint(0x404040); // Red tint
+                    this.music.play();
+                    this.time.delayedCall(1000, () => {
+                    this.gotoScene('Room6');
+                    });
+        
+            })
+            this.qqqq1.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq1,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        
+        this.time.delayedCall(600, () => {
+            this.qqqq2 = this.add.image(
+                270,
+                270,
+                'qqqq2',
+            )
+            this.qqqq2.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqqq2.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq2.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq2,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(700, () => {
+            this.qqqq3 = this.add.image(
+                440,
+                270,
+                'qqqq3',
+            )
+            this.qqqq3.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                globalScore += 1;
+                this.qqqq3.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq3.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq3,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(800, () => {
+            this.qqqq4 = this.add.image(
+                610,
+                270, 
+                'qqqq4',
+            )
+            this.qqqq4.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+        
+
+                this.buttonPressed = true;
+                this.qqqq4.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+            }
+            })
+            this.qqqq4.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq4,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(900, () => {
+            this.qqqq5 = this.add.image(
+                780,
+                270, 
+                'qqqq5',
+            )
+            this.qqqq5.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqqq5.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq5.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq5,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+
+        ////////////////////
+        this.time.delayedCall(500, () => {
+            this.qqqq6 = this.add.image(
+                100,
+                450,
+                'qqqq6',
+            )
+            this.qqqq6.setScale(.5)
+            .setInteractive() 
+            .on('pointerdown', () => {
+                    
+                    this.qqqq6.setTint(0x404040); // Red tint
+                    this.music.play();
+                    this.time.delayedCall(1000, () => {
+                    this.gotoScene('Room6');
+                    });
+        
+            })
+            this.qqqq6.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq6,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        
+        this.time.delayedCall(600, () => {
+            this.qqqq7 = this.add.image(
+                270,
+                450,
+                'qqqq7',
+            )
+            this.qqqq7.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqqq7.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq7.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq7,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(700, () => {
+            this.qqqq8 = this.add.image(
+                440,
+                450,
+                'qqqq8',
+            )
+            this.qqqq8.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqqq8.setTint(0x404040); // Red tint
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq8.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq8,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(800, () => {
+            this.qqqq9 = this.add.image(
+                610,
+                450, 
+                'qqqq9',
+            )
+            this.qqqq9.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                if (!this.buttonPressed) {
+        
+
+                this.buttonPressed = true;
+                this.qqqq9.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+            }
+            })
+            this.qqqq9.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq9,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+        this.time.delayedCall(900, () => {
+            this.qqqq10 = this.add.image(
+                780,
+                450, 
+                'qqqq10',
+            )
+            this.qqqq10.setScale(.5)
+            .setInteractive()
+            .on('pointerdown', () => {
+                this.qqqq10.setTint(0x404040); 
+                this.music.play();
+                this.time.delayedCall(1000, () => {
+                this.gotoScene('Room6');
+                });
+        
+            })
+            this.qqqq10.alpha = 0;
+            this.tweens.add({
+                        targets: this.qqqq10,
+                        alpha: 1,
+                        duration: 1000,
+                        ease: 'Linear'
+                      });
+        });
+
+
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,100, "Question 8").setFontSize(50);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+        this.time.delayedCall(200, () => {
+            let textObject = this.add.text(440,150, "Choose the anomaly").setFontSize(35);
+            textObject.setOrigin(0.5);
+            textObject.alpha = 0;
+
+            this.tweens.add({
+                targets: textObject,
+                alpha: 1,
+                duration: 1000,
+                ease: 'Linear'
+              });
+        });
+
+        
+    }
+
+    
+}
+
+
 class Room6 extends AdventureScene {
     constructor() {
         super("Room6", "Room 6");
@@ -940,9 +1652,9 @@ class Room6 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.trust.setTint(0x2bff64); 
+                this.trust.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room7');
                 });
             }
@@ -964,9 +1676,9 @@ class Room6 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.threat.setTint(0xff0000); 
+                this.threat.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room7');
                 });
         
@@ -1028,9 +1740,9 @@ class Room7 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.trust.setTint(0xff0000); 
+                this.trust.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room8');
                 });
         
@@ -1055,9 +1767,9 @@ class Room7 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.threat.setTint(0x2bff64); 
+                this.threat.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room8');
                 });
             }
@@ -1122,9 +1834,9 @@ class Room8 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.trust.setTint(0x2bff64); 
+                this.trust.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room9');
                 });
             }
@@ -1146,9 +1858,9 @@ class Room8 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.threat.setTint(0xff0000); 
+                this.threat.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room9');
                 });
         
@@ -1210,9 +1922,9 @@ class Room9 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.trust.setTint(0xff0000); 
+                this.trust.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room10');
                 });
         
@@ -1237,9 +1949,9 @@ class Room9 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.threat.setTint(0x2bff64); 
+                this.threat.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room10');
                 });
             }
@@ -1304,9 +2016,9 @@ class Room10 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.trust.setTint(0x2bff64); 
+                this.trust.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room11');
                 });
             }
@@ -1328,9 +2040,9 @@ class Room10 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.threat.setTint(0xff0000); 
+                this.threat.setTint(0x404040); 
                 this.music.play();
-                this.time.delayedCall(2000, () => {
+                this.time.delayedCall(1000, () => {
                 this.gotoScene('Room11');
                 });
         
@@ -1394,7 +2106,7 @@ class Room11 extends AdventureScene {
             .setInteractive()
             .on('pointerdown', () => {
                 
-                this.trust.setTint(0xff0000); 
+                this.trust.setTint(0x404040); 
                 
                 this.time.delayedCall(500, () => {
                     this.rr6 = this.add.image(
@@ -1431,7 +2143,7 @@ class Room11 extends AdventureScene {
                 if (!this.buttonPressed) {
                 globalScore += 1;
                 this.buttonPressed = true;
-                this.threat.setTint(0x2bff64); 
+                this.threat.setTint(0x404040); 
                 this.time.delayedCall(500, () => {
                     this.rr6 = this.add.image(
                         440,
@@ -1511,159 +2223,43 @@ class Room12 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                this.time.delayedCall(2000, () => {
-                    this.per2 = this.add.image(
-                        440,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.25);
-                });
+                this.per2 = this.add.image(
+                    440,
+                    170, 
+                    'per2',
+                )
+                this.per2.setScale(.25);
+   
 
-                this.time.delayedCall(4800, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.27);
-                });
+            this.time.delayedCall(1000, () => {
+                for (let i = 0; i < 50; i++) {
+                    const x = Phaser.Math.RND.integerInRange(200, 800); // Random X position between 200 and 800
+                    const y = Phaser.Math.RND.integerInRange(70, 270);  // Random Y position between 70 and 270
+                    const scale = Phaser.Math.RND.realInRange(0.25, 0.5); // Random scaling between 0.25 and 0.5
+            
+                    this.time.delayedCall((i * 20) + 2000, () => {
+                        const per2 = this.add.image(x, y, 'per2');
+                        per2.setScale(scale);
+                    });
+                }
+            });
 
-                this.time.delayedCall(4840, () => {
-                    this.per2 = this.add.image(
-                        530,
-                        70, 
-                        'per2',
-                    )
-                    this.per2.setScale(.28);
-                });
+            this.time.delayedCall(4000, () => {
+                this.per3 = this.add.image(
+                    440,
+                    200, 
+                    'per3',
+                )
+                this.per3.setScale(.7);
+            });
+            this.music.play();
 
-                this.time.delayedCall(4950, () => {
-                    this.per2 = this.add.image(
-                        330,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.21);
-                });
-
-                this.time.delayedCall(4850, () => {
-                    this.per2 = this.add.image(
-                        200,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.29);
-                });
-
-                this.time.delayedCall(4920, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.31);
-                });
-
-                this.time.delayedCall(4900, () => {
-                    this.per2 = this.add.image(
-                        400,
-                        200, 
-                        'per2',
-                    )
-                    this.per2.setScale(.39);
-                });
-
-                this.time.delayedCall(4950, () => {
-                    this.per2 = this.add.image(
-                        410,
-                        190, 
-                        'per2',
-                    )
-                    this.per2.setScale(.40);
-                });
-
-                this.time.delayedCall(5000, () => {
-                    this.per2 = this.add.image(
-                        320,
-                        150, 
-                        'per2',
-                    )
-                    this.per2.setScale(.39);
-                });
-
-                this.time.delayedCall(5050, () => {
-                    this.per2 = this.add.image(
-                        320,
-                        150, 
-                        'per2',
-                    )
-                    this.per2.setScale(.47);
-                });
-
-
-                this.time.delayedCall(5100, () => {
-                    this.per2 = this.add.image(
-                        300,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.42);
-                });
-
-                this.time.delayedCall(5150, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        160, 
-                        'per2',
-                    )
-                    this.per2.setScale(.44);
-                });
-
-                this.time.delayedCall(5350, () => {
-                    this.per2 = this.add.image(
-                        300,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.45);
-                });
-
-                this.time.delayedCall(5390, () => {
-                    this.per2 = this.add.image(
-                        800,
-                        180, 
-                        'per2',
-                    )
-                    this.per2.setScale(.45);
-                });
-
-                this.time.delayedCall(5400, () => {
-                    this.per2 = this.add.image(
-                        900,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.5);
-
-                });
-
-                this.time.delayedCall(5450, () => {
-                    this.per3 = this.add.image(
-                        440,
-                        200, 
-                        'per3',
-                    )
-                    this.per3.setScale(.7);
-                });
-                this.music.play();
-                
-                
-                this.time.delayedCall(5500, () => {
+                this.time.delayedCall(4050, () => {
                 this.gotoScene('Room13');
                 });
         
             })
+            
             this.trust.alpha = 0;
             this.tweens.add({
                         targets: this.trust,
@@ -1681,164 +2277,44 @@ class Room12 extends AdventureScene {
             )
             .setInteractive()
             .on('pointerdown', () => {
-                if (!this.buttonPressed) {
-                globalScore += 1;
-                
-                this.buttonPressed = true;
-                this.time.delayedCall(2000, () => {
-                    this.per2 = this.add.image(
-                        440,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.25);
-                });
+                this.per2 = this.add.image(
+                    440,
+                    170, 
+                    'per2',
+                )
+                this.per2.setScale(.25);
+   
 
-                this.time.delayedCall(4800, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.27);
-                });
+            this.time.delayedCall(1000, () => {
+                for (let i = 0; i < 50; i++) {
+                    const x = Phaser.Math.RND.integerInRange(200, 800); // Random X position between 200 and 800
+                    const y = Phaser.Math.RND.integerInRange(70, 270);  // Random Y position between 70 and 270
+                    const scale = Phaser.Math.RND.realInRange(0.25, 0.5); // Random scaling between 0.25 and 0.5
+            
+                    this.time.delayedCall((i * 20) + 2000, () => {
+                        const per2 = this.add.image(x, y, 'per2');
+                        per2.setScale(scale);
+                    });
+                }
+            });
 
-                this.time.delayedCall(4840, () => {
-                    this.per2 = this.add.image(
-                        530,
-                        70, 
-                        'per2',
-                    )
-                    this.per2.setScale(.28);
-                });
+            this.time.delayedCall(4000, () => {
+                this.per3 = this.add.image(
+                    440,
+                    200, 
+                    'per3',
+                )
+                this.per3.setScale(.7);
+            });
+            this.music.play();
 
-                this.time.delayedCall(4950, () => {
-                    this.per2 = this.add.image(
-                        330,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.21);
-                });
-
-                this.time.delayedCall(4850, () => {
-                    this.per2 = this.add.image(
-                        200,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.29);
-                });
-
-                this.time.delayedCall(4920, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.31);
-                });
-
-                this.time.delayedCall(4900, () => {
-                    this.per2 = this.add.image(
-                        400,
-                        200, 
-                        'per2',
-                    )
-                    this.per2.setScale(.39);
-                });
-
-                this.time.delayedCall(4950, () => {
-                    this.per2 = this.add.image(
-                        410,
-                        190, 
-                        'per2',
-                    )
-                    this.per2.setScale(.40);
-                });
-
-                this.time.delayedCall(5000, () => {
-                    this.per2 = this.add.image(
-                        320,
-                        150, 
-                        'per2',
-                    )
-                    this.per2.setScale(.39);
-                });
-
-                this.time.delayedCall(5050, () => {
-                    this.per2 = this.add.image(
-                        320,
-                        150, 
-                        'per2',
-                    )
-                    this.per2.setScale(.47);
-                });
-
-
-                this.time.delayedCall(5100, () => {
-                    this.per2 = this.add.image(
-                        300,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.42);
-                });
-
-                this.time.delayedCall(5150, () => {
-                    this.per2 = this.add.image(
-                        500,
-                        160, 
-                        'per2',
-                    )
-                    this.per2.setScale(.44);
-                });
-
-                this.time.delayedCall(5350, () => {
-                    this.per2 = this.add.image(
-                        300,
-                        170, 
-                        'per2',
-                    )
-                    this.per2.setScale(.45);
-                });
-
-                this.time.delayedCall(5390, () => {
-                    this.per2 = this.add.image(
-                        800,
-                        180, 
-                        'per2',
-                    )
-                    this.per2.setScale(.45);
-                });
-
-                this.time.delayedCall(5400, () => {
-                    this.per2 = this.add.image(
-                        900,
-                        120, 
-                        'per2',
-                    )
-                    this.per2.setScale(.5);
-
-                });
-
-                this.time.delayedCall(5450, () => {
-                    this.per3 = this.add.image(
-                        440,
-                        200, 
-                        'per3',
-                    )
-                    this.per3.setScale(.7);
-                });
-                this.music.play();
-                
-                
-                this.time.delayedCall(5500, () => {
+                this.time.delayedCall(4050, () => {
                 this.gotoScene('Room13');
                 });
-            }
         
             })
+
+
             this.threat.alpha = 0;
             this.tweens.add({
                         targets: this.threat,
@@ -1904,6 +2380,7 @@ class Room13 extends AdventureScene {
         this.load.path = "./assets/";
         this.load.video("end", "Ending.mp4");
         this.load.image('a5', 'a5.png');
+        this.load.image('tape', 'Tape.png');
     }
 
     updateScoreText() {
@@ -1916,27 +2393,30 @@ class Room13 extends AdventureScene {
     create() {
 
 
-        let result = globalScore / 12;
+        let result = globalScore / 15;
         let roundedResult = result.toFixed(2);
 
         let lastScore = roundedResult * 100;
         let lastScore1 = (roundedResult * 100).toFixed(0);
 
-        const video = this.add.video(400, 300, "end");
-        video.play();
+        // const video = this.add.video(400, 300, "end");
+        // video.play();
 
    
         
-        video.on('complete', () => {
+        // video.on('complete', () => {
 
+            
 
-            this.scoreText = this.add.text(300, 270, 'Score: ' + lastScore1 + "%", {
+            this.scoreText = this.add.text(300, 170, 'Score: ' + lastScore1 + "%", {
                 fontSize: '50px',
                 fill: '#fff'
             });
 
+        
+
             if(lastScore >89){
-                this.scoreText = this.add.text(300, 370, "You're prepared", {
+                this.scoreText = this.add.text(300, 270, "You're prepared", {
                     fontSize: '24px',
                     fill: '#fff'
                 });
@@ -1944,14 +2424,40 @@ class Room13 extends AdventureScene {
 
                 
             }else{
-                this.scoreText = this.add.text(300, 370, "Remember to lock your door", {
+                this.scoreText = this.add.text(300, 270, "Remember to lock your door", {
                     fontSize: '24px',
                     fill: '#fff'
                 });
             }
 
-            this.input.on('pointerdown', () => this.scene.start('Intro'));
-        });
+            this.tape = this.add.image(
+                440,
+                300, 
+                'tape',
+            )
+            this.tape.setInteractive();
+
+            this.tape2 = this.add.text(350, 480, "Tape 2: Audio Test", {
+                fontSize: '15px',
+                fill: '#fff'
+            });
+
+            this.tweens.add({
+                targets: [this.tape, this.tape2],
+
+                duration: 1000,
+                ease: 'Sine.InOut',
+                y: '+=20', // Move the elements up by 10 pixels
+                yoyo: true, // This makes it go up and then back down
+                repeat: -1, // Repeat indefinitely
+            });
+
+            this.tape.on('pointerdown', () => {
+                        window.open('https://cigreen.github.io/Tape-2-ARTG-170/', '_blank');
+
+            });
+
+        // });
     }
 }
 
@@ -1965,7 +2471,7 @@ const game = new Phaser.Game({
         width: 880,
         height: 540
     },
-    scene: [Intro, Room1, Room2, Room3, Room4, Room5, Room6,Room7,Room8,Room9, Room10, Room11,Room12, Room13],
+    scene: [Intro, Room1, Room2, Room3, Room4, Room5, Test1, Test2,Test3, Room6, Room7,Room8,Room9, Room10, Room11,Room12,Room13],
     title: "Adventure Game",
 });
 
